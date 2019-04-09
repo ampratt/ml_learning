@@ -1,0 +1,19 @@
+{
+  "name": "tensorflowsetup",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "main": "buildingblocks.js",
+  "scripts": {
+    "start": "parcel --target=node buildingblocks.js & nodemon dist/buildingblocks.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^0.11.6",
+    "@tensorflow/tfjs-node": "^0.1.7",
+    "nodemon": "^1.17.5",
+    "parcel": "^1.9.0"
+  }
+}

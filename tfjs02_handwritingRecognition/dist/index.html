@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>tfjs02</title>
+<link rel="stylesheet" href="/tfjs02_handwritingRecognition.e31bb0bc.css"></head>
+<body>
+  <style>.prediction-canvas {
+      width: 100px;
+      margin: 20px;
+    }
+    .prediction-div {
+      display: inline-block;
+      margin: 10px;
+    }</style>
+
+
+  <div class="container" style="padding-top: 20px">
+    <h1>Welcome to TensorFlow.js</h1>
+    <div class="card">
+      <h4 class="card-header">TensorFlow - Handwriting Sample Recognition</h4>
+      <div class="card-body">
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Log Output:</h5>
+            <div id="log"></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Predict</h5>
+            <button class="btn btn-primary" id="selectTestDataBtn" disabled="">Model in training...</button>
+            <div id="predictionResult"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <script src="/tfjs02_handwritingRecognition.e31bb0bc.js"></script>
+</body>
+</html>

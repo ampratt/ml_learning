@@ -1,0 +1,25 @@
+{
+  "name": "tfjs_iris02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "@tensorflow/tfjs": "^0.11.6",
+    "@tensorflow/tfjs-node": "^0.1.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "babel-core": "^6.26.3",
+    "babel-watch": "^7.0.0",
+    "babel-cli": "^6.26.0"
+  }
+}
